@@ -1,0 +1,32 @@
+{
+    "name": "lewildecode/LwcMultipleChoice",
+    "description": "ZF2 Module to create Multiple Choice Tests",
+    "version": "0.0.5",
+    "type": "module",
+    "license": "later",
+    "tags": [
+        "zend framework",
+        "zf2",
+        "Multiple Choice",        
+        "module"
+    ],
+    "homepage": "https://github.com/webconsults.eu/LwcMultipleChoice",
+    "authors": [
+        {
+            "name": "John Behrens"
+           
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+     "psr-0": {
+            "GeonamesServer": "src/"
+     },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
