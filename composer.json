@@ -19,7 +19,10 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-user": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "lewildecode/LwcMultipleChoice" : "dev-master"
     },
     "autoload": {
      "psr-0": {
