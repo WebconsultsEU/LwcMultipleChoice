@@ -1,7 +1,7 @@
 {
-    "name": "lewildecode/LwcMultipleChoice",
+    "name": "lewildecode/lwc-multiple-choice",
     "description": "ZF2 Module to create Multiple Choice Tests",
-    "version": "0.0.5",
+    "version": "0.5",
     "type": "module",
     "license": "later",
     "tags": [
@@ -20,6 +20,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-base": "dev-master",
         "zf-commons/zfc-user": "dev-master",
         "doctrine/doctrine-module": "dev-master",
         "lewildecode/LwcMultipleChoice" : "dev-master"
